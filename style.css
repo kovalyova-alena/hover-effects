@@ -94,7 +94,46 @@
 
 
 /* ------- hover effect 2 ----------*/
+.hover2 .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    overflow: hidden;
+    -webkit-transform: translate(460px, -100px) rotate(180deg);
+    -ms-transform: translate(460px, -100px) rotate(180deg);;
+    transform: translate(460px, -100px) rotate(180deg);;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
+}
+
+.hover2:hover .overlay {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.hover2 h2 {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.hover2 a {
+    padding: 7px 14px;
+    color: #fff;
+    background: #000;
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
 
 
 
