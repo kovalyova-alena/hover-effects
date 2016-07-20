@@ -432,21 +432,21 @@
     box-shadow:0 0 5px #fff;
 }
 
-/* ------- hover effect 1 ----------*/
-.hover1 img {
+/* ------- hover effect 6 ----------*/
+.hover6 img {
     width: 100%;
-    -o-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    -moz-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
 }
 
-.hover1:hover img {
+.hover6:hover img {
     -webkit-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
 }
 
-.hover1 .overlay {
+.hover6 .overlay {
     position: absolute;
     background: rgba(0,0,0,0);
     width: 100%;
@@ -454,13 +454,18 @@
     top: 0;
     left: 0;
     overflow: hidden;
+    -o-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    -moz-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+
 }
 
-.hover1:hover .overlay {
+.hover6:hover .overlay {
     background: rgba(0,0,0,0.4);
 }
 
-.hover1 h2 {
+.hover6 h2 {
     color: #fff;
     text-transform: uppercase;
     background: rgba(0,0,0,0.6);
@@ -470,19 +475,19 @@
     -webkit-transform: translateY(-70px);
     -ms-transform: translateY(-70px);
     transform: translateY(-70px);
-    -o-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    -moz-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
 }
 
-.hover1:hover h2 {
+.hover6:hover h2 {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
 }
 
-.hover1 a {
+.hover6 a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -499,7 +504,7 @@
     display: inline-block;
 }
 
-.hover1:hover a {
+.hover6:hover a {
     transition-delay: 0.2s;
     -webkit-transition-delay: 0.2s;
     -o-transition-delay: 0.2s;
@@ -508,6 +513,6 @@
     filter:alpha(opacity=100);
 }
 
-.hover1:hover a:hover {
+.hover6:hover a:hover {
     box-shadow:0 0 5px #fff;
 }
